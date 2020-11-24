@@ -17,8 +17,10 @@ const Wrapper = styled.div`
 `;
 
 const Main = styled.div`
+    border: 1px solid purple;
     display: flex;
     width: 100%;
+    height: 100%;
 `;
 
 const NavLayout = ({ children }) => {

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 const NavBar = styled.div`
     border: 3px solid black;
+    border-top-style: none;
     display: flex;
     width: 15em;
     justify-content: center;
@@ -36,6 +37,14 @@ const Navigation = () => {
                 <NavList>
                     <ListItem>
                         <Link to="/notes">Notes</Link>
+                    </ListItem>
+                </NavList>
+            }
+
+            {page === '/notes' && 
+                <NavList>
+                    <ListItem>
+                        <Link to="/newnote">New Note</Link>
                     </ListItem>
                 </NavList>
             }

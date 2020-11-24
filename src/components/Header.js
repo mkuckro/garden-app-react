@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 const HeaderBorder = styled.div`
-    border: 5px solid black;
+    border: 3px solid black;
     display: flex;
     height: 6em;
     padding: 0;
